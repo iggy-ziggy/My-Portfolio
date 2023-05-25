@@ -87,10 +87,6 @@ body {
     padding-left: 150px;
 }
 
-/* .section1 {
-    background-color: var(--greyBlue);
-} */
-
 .section1,
 .section2,
 .section3 {
@@ -124,14 +120,6 @@ body {
     border-radius: 15px;
     height: 15em;
     flex: 1;
-}
-
-.item1 {
-    
-}
-
-#image1 {
-    
 }
 
 .section2 img:hover {
