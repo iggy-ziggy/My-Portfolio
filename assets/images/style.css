@@ -1,0 +1,142 @@
+:root {
+    --midnightBlue: rgb(21, 21, 49);
+    --darkBlue: rgb(14, 14, 24);
+    --greyBlue: rgb(47, 56, 91);
+    --lightBlue: rgb(229, 229, 255);
+    --turq: rgb(201, 255, 250);
+    --darkTurq: rgb(80, 143, 150);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--midnightBlue);
+    margin: 0;
+    color: var(--turq);
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+}
+
+.header-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 25px;
+    align-items: baseline;
+}
+
+.header-title {
+    font-size: 5em;
+}
+
+.nav {
+    font-size: 1.5em;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.nav-item {
+    margin: 30px;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: baseline;
+    position: relative;
+    padding-top: 45px;
+}
+
+.banner {
+    height: 10vh;
+    width: 100vw;
+    background-color: var(--darkTurq);
+    margin-bottom: 75px;
+}
+
+.portrait {
+    width: 100%;
+    flex-direction: row;
+    margin: 0 0 10% 0;
+    padding: 0 0 0 50%;
+}
+
+#portrait {
+    height: ;
+}
+
+.section-title1,
+.section-title2,
+.section-title3 {
+    width: 100%;
+    flex-direction: row;
+    font-size: 2.75em;
+    flex: auto;
+    padding-left: 150px;
+}
+
+.section1,
+.section2,
+.section3 {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    margin: 40px;
+    font-size: 1.5em;
+    border: 5px solid var(--greyBlue);
+    border-style: none none none solid;
+}
+
+.section1 {
+    padding: 25px;
+    line-height: 1.35;
+    flex-direction: column;
+}
+
+.section1 p {
+    margin: 10px;
+}
+
+.section2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.section2 img {
+    border-radius: 15px;
+    height: 15em;
+    flex: 1;
+}
+
+.section2 img:hover {
+    box-shadow: inset 0px 0px 8px var(--turq), 0 0 25px var(--turq);
+}
+
+.section3 {
+    flex-wrap: wrap;
+}
+
+.section3 p {
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+footer {
+    padding: 50px 20px 30px 20px;
+    text-align: center;
+    font-size: 1.25em;
+}
